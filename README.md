@@ -1,6 +1,11 @@
 PhoneGap NFC Plugin
 ==========================
 
+*** This fork of the chariotsolutions/phonegap-nfc repository contains a fix for a compilation bug in xcode. This bug is well documented in the isssues list
+    of the chariotsolutions project, and the solution is taken from JohnCocks's repository here: https://github.com/JohnCocks/phonegap-nfc/pull/1.
+    Note the changes also fix some unrelated bugs. The changes have been replicated here in order to provide a snapshot for Mi-Corporation/Ideagen to use
+    in their build pipeline. ***
+
 The NFC plugin allows you to read and write  NFC tags. You can also beam to, and receive from, other NFC enabled devices.
 
 Use to
